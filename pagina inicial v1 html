@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="internet.css">
+    <title>IOT</title>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+    <nav class="menu">
+        <h1 class="logo">INTERNET <br> DAS <br> COISAS</h1>
+        <button class="domestico"><strong>SISTEMAS DOMÉSTICOS</strong></button>
+    </nav>
+
+    <h1 class="title"> INTERTNET DAS COISAS <br> (IOT) <br> E SISTEMAS INTELIGENTES</h1>
+</body>
+</html>
