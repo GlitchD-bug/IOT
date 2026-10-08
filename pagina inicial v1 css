@@ -1,0 +1,54 @@
+body {
+    background-color: #1746c4;
+}
+
+
+.menu {
+ background:rgba(255,255,255,.14);       
+  -webkit-backdrop-filter:blur(14px);    
+  backdrop-filter:blur(14px);
+  border:1.5px solid rgba(188,210,255,.8);
+  border-radius: 30px;
+  width: 1300px;
+  height: 90px;
+  position: absolute;
+  top: 6%;
+  left: 2%;
+}
+
+.logo {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 120%;
+    margin-top: 0.1%;
+    margin-left: -92%;
+}
+
+.domestico{
+  font-family:"Oswald",sans-serif;
+  padding:12px 26px;
+  position:absolute;
+  top:25px;
+  left:750px; 
+  cursor:pointer;
+  border-radius:50px;
+
+  background:transparent;
+  border:1.5px solid transparent;
+  transition:background .25s, border-color .25s, backdrop-filter .25s;
+}
+
+.domestico:hover,
+.domestico:focus-visible{
+  background:rgba(255,255,255,.35);
+  border-color:rgba(23,70,196,.6);
+  -webkit-backdrop-filter:blur(12px);
+  backdrop-filter:blur(12px);
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 60px;
+     margin-top:200px;
+}
