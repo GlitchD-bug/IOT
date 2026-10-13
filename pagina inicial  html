@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="internet.css">
+    <title>IOT</title>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+
+    <nav class="menu">
+        <h1 class="logo">IoT.</h1>
+            <button class="domestico">Sistemas Domésticos</button>
+            <button class="indus">Sistemas Indústrias</button>
+            <button class="distan">Sistemas a Distância</button>
+    </nav>
+
+    <h1 class="title"> Internet das coisas <br> (IOT) <br> E sistemas nteligentes</h1>
+    <p class="exemplo">Sistemas que conectam sua sociedade <br> com dispositos inteligentes trocando dados de forma autômota</p>
+
+    <div>
+        <button class="conhe">Conheça Mais</button>
+    </div>
+</body>
+</html>
