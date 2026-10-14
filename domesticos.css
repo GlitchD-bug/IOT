@@ -1,0 +1,94 @@
+:root {
+  --texto: #1b1340;
+  --azul: #4dffe4;
+
+}
+
+body {
+    background-color: #f2efff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--texto);
+}
+
+.menu {
+  background: rgba(255,255,255,.14);       
+  -webkit-backdrop-filter: blur(14px);    
+  backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(55, 147, 213, 0.8);
+  border-radius: 30px;
+  width: 1300px;
+  height: 90px;
+  position: absolute;
+  top: 6%;
+  left: 15%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 40px; 
+  animation: expandirMenu 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.domestico, .indus, .distan {
+  background-color: var(--texto);
+  color: var(--azul);
+  font-weight: 600px;
+  font-size: 16px;
+  padding: 18px 28px;
+  border-radius: 999px;
+  border: transparent;
+  position: absolute;
+  left: 820px;
+  top: 17px;
+  cursor: pointer;
+}
+
+.indus {
+  position: absolute;
+  left: 550px;
+}
+
+.distan {
+  position: absolute;
+  left: 280px;
+}
+
+.distan:hover, .indus:hover, .domestico:hover {
+  background-color: rgba(117, 183, 195, 0.556);
+  color: #1b1340;
+  border-color: #082a24;
+  
+}
+
+.logo {
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
+    text-align: center;
+    font-size: 230%;
+    margin-top: 1.8%;
+    margin-left: -90%;
+}
+
+.title {
+      font-family: "Bricolage Grotesque", Arial, sans-serif;
+      font-size: 60px;
+    position: absolute;
+    left: 6%;
+    top: 17%;
+}
+
+.desc {
+    font-family: "Bricolage Grotesque", Arial, sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    text-align: center;
+
+}
+
+.casa {
+    background-color: var(--azul);
+    width: 45px;
+    height: 420px;
+    font-family: "Bricolage Grotesque", Arial, sans-serif;
+    font-size: 28px;
+}
