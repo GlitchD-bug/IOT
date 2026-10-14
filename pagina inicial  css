@@ -1,25 +1,37 @@
 :root {
   --texto: #1b1340;
-  --amarelo: #ffd84d;
+  --azul: #4dffe4;
 
 }
 
 body {
-    background-color: #f2efff;
+   background: 
+   linear-gradient(
+    180deg,
+    #FAFAFC 0%,
+    #9bf5f5a1 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     color: var(--texto);
 }
 
-
 .menu {
-  background: white;
-  border:1.5px solid rgba(188,210,255,.8);
-  border-radius: 999px;
-  width: 1100px;
+  background: rgba(255,255,255,.14);       
+  -webkit-backdrop-filter: blur(14px);    
+  backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(55, 147, 213, 0.8);
+  border-radius: 30px;
+  width: 1300px;
   height: 90px;
   position: absolute;
   top: 6%;
-  left: 10%;
-  border-color: transparent;
+  left: 2%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 40px; 
+  animation: expandirMenu 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .logo {
@@ -33,15 +45,18 @@ body {
 
 
 .title {
+  position: absolute;
   font-family: "Bricolage Grotesque", Arial, sans-serif;
     text-align: center;
     font-size: 60px;
      margin-top:200px;
+     right: 29%;
+     top: 0;
 }
 
 .domestico, .indus, .distan {
   background-color: var(--texto);
-  color: var(--amarelo);
+  color: var(--azul);
   font-weight: 600px;
   font-size: 16px;
   padding: 18px 28px;
@@ -63,27 +78,25 @@ body {
   left: 180px;
 }
 
-.distan:hover {
-  opacity: 0.85;
-}
-
-.indus:hover {
-  opacity: 0.85;
-}
-
-.domestico:hover {
-  opacity: 0.85;
+.distan:hover, .indus:hover, .domestico:hover {
+  background-color: rgba(117, 183, 195, 0.556);
+  color: #1b1340;
+  border-color: #082a24;
+  
 }
 
 .exemplo {
+  position: absolute;
   font-size: 25px;
   font-family: "Bricolage Grotesque", Arial, sans-serif;
   text-align: center;
+  left: 25%;
+  top: 55%;
 }
 
 .conhe {
   font-family: "Bricolage Grotesque", Arial, sans-serif;
-  background-color: var(--amarelo);
+  background-color: var(--azul);
   color: var(--texto);
   border-radius: 999px;
   border-color: transparent;
@@ -91,9 +104,13 @@ body {
   width: 330px;
   height: 60px;
   position: absolute;
-  left: 500px; 
+  left: 39%; 
+  bottom: 18%;
+  background-color: #4dffe4;
 }
 
 .conhe:hover {
-  opacity: 0.85;
+  background-color: rgba(117, 183, 195, 0.556);
+  color: #1b1340;
 }
+
