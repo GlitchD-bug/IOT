@@ -13,12 +13,12 @@
 
     <nav class="menu">
         <h1 class="logo">IoT.</h1>
-            <button class="domestico">Sistemas Domésticos</button>
-            <button class="indus">Sistemas Indústrias</button>
-            <button class="distan">Sistemas a Distância</button>
+            <button class="domestico"><strong>Sistemas Domésticos</strong></button>
+            <button class="indus"><strong>Sistemas Indústrias</strong></button>
+            <button class="distan"><strong>Sistemas a Distância</strong></button>
     </nav>
 
-    <h1 class="title"> Internet das coisas <br> (IOT) <br> E sistemas nteligentes</h1>
+    <h1 class="title"> Internet das coisas <br> (IOT) <br> E sistemas inteligentes</h1>
     <p class="exemplo">Sistemas que conectam sua sociedade <br> com dispositos inteligentes trocando dados de forma autômota</p>
 
     <div>
