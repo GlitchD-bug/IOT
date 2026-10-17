@@ -12,10 +12,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
 
     <nav class="menu">
-        <h1 class="logo">IoT.</h1>
-            <button class="domestico"><strong>Sistemas Domésticos</strong></button>
-            <button class="indus"><strong>Sistemas Indústrias</strong></button>
-            <button class="distan"><strong>Sistemas a Distância</strong></button>
+        <a href="Pág incial.html"><h1 class="logo">IoT.</h1></a>
+            <button class="domestico">Sistemas Domésticos</button>
+            <a href="indus.html"><button class="indus">Sistemas Indústrias</button></a>
+            <button class="distan">Sistemas a Distância</button>
     </nav>
 
     <h1 class="title"> Internet das coisas <br> (IOT) <br> E sistemas inteligentes</h1>
