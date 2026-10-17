@@ -83,6 +83,7 @@ body {
 
 a{
   text-decoration: none;
+  color: inherit;
 }
 
 .title {
@@ -118,6 +119,7 @@ a{
 }
 
 .indus4 {
+  color: white;
   background-color: white;
   height: auto;
   min-height: 320px;
