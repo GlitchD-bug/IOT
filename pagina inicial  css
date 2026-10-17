@@ -5,12 +5,7 @@
 }
 
 body {
-   background: 
-   linear-gradient(
-    180deg,
-    #FAFAFC 0%,
-    #9bf5f5a1 100%
-    );
+   background-color: whitesmoke;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -18,21 +13,28 @@ body {
 }
 
 .menu {
-  background: rgba(255,255,255,.14);       
-  -webkit-backdrop-filter: blur(14px);    
-  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  width: 900px;
+  height: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
   border: 1.5px solid rgba(55, 147, 213, 0.8);
-  border-radius: 30px;
-  width: 1300px;
-  height: 90px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  padding: 15px 30px;
+  z-index: 10;
   position: absolute;
-  top: 6%;
-  left: 2%;
+  top: 3%;
+  left: 15%;
   align-items: center;
   justify-content: flex-start;
   padding: 0 40px; 
   animation: expandirMenu 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  text-decoration: none;
 }
+
 
 .logo {
   font-family: "Bricolage Grotesque", Arial, sans-serif;
@@ -42,7 +44,10 @@ body {
     margin-left: -90%;
 }
 
-
+a{
+  text-decoration: none;
+  color: inherit;
+}
 
 .title {
   position: absolute;
@@ -54,35 +59,38 @@ body {
      top: 0;
 }
 
-.domestico, .indus, .distan {
-  background-color: var(--texto);
-  color: var(--azul);
+.domestico, .distan, .indus {
+  background-color: transparent;
+  color: black;
   font-weight: 600px;
   font-size: 16px;
   padding: 18px 28px;
   border-radius: 999px;
   border: transparent;
   position: absolute;
-  left: 720px;
-  top: 17px;
+  left: 50%;
+  top: 14%;
   cursor: pointer;
-}
-
-.indus {
-  position: absolute;
-  left: 450px;
 }
 
 .distan {
   position: absolute;
-  left: 180px;
+  left: 30%;
 }
 
-.distan:hover, .indus:hover, .domestico:hover {
-  background-color: rgba(117, 183, 195, 0.556);
-  color: #1b1340;
-  border-color: #082a24;
-  
+.domestico{
+  position: absolute;
+  left: 55%;
+}
+
+.indus{
+  position: absolute;
+  left: 80%;
+}
+
+.distan:hover, .domestico:hover, .indus:hover {
+  color: #3793d5cc;
+  text-decoration: underline;
 }
 
 .exemplo {
@@ -113,4 +121,3 @@ body {
   background-color: rgba(117, 183, 195, 0.556);
   color: #1b1340;
 }
-
