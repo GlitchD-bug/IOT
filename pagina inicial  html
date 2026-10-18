@@ -15,7 +15,7 @@
         <a href="Pág incial.html"><h1 class="logo">IoT.</h1></a>
             <button class="domestico">Sistemas Domésticos</button>
             <a href="indus.html"><button class="indus">Sistemas Indústrias</button></a>
-            <button class="distan">Sistemas a Distância</button>
+            <a href="dist.html"><button class="distan">Sistemas a Distância</button></a>
     </nav>
 
     <h1 class="title"> Internet das coisas <br> (IOT) <br> E sistemas inteligentes</h1>
