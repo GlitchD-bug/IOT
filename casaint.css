@@ -1,0 +1,315 @@
+:root {
+  --texto: #1b1340;
+  --azul: #4dffe4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
+  background-color: whitesmoke;
+  color: var(--texto);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  color: black;
+  text-decoration: none;
+}
+
+/* ---------- MENU ---------- */
+.menu {
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  width: 900px;
+  max-width: 94%;
+  height: 70px;
+  border: 1.5px solid rgba(55, 147, 213, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  z-index: 10;
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
+  animation: expandirMenu 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.logo {
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
+  font-size: 35px;
+  margin: 0;
+  color: black;
+  cursor: pointer;
+}
+
+.indus {
+  background-color: transparent;
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 18px 28px;
+  border-radius: 999px;
+  border: transparent;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.indus:hover {
+  color: #3793d5cc;
+  text-decoration: underline;
+}
+
+/* ---------- CONTEÚDO ---------- */
+.conteudo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 5% 0;
+}
+
+/* Cada bloco: imagem de um lado, texto do outro */
+.bloco {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 100px;
+  animation: surgimentoInicial 1s ease-out forwards;
+}
+
+.bloco.inverso {
+  flex-direction: row-reverse;
+}
+
+/* Lado da imagem */
+.visual {
+  position: relative;
+  flex: 0 0 48%;
+  max-width: 560px;
+  height: 520px;
+}
+
+.azul {
+  position: absolute;
+  inset: 0;
+  background-color: #132340;
+  border-top-left-radius: 5px;
+  clip-path: polygon(0 0, 99% 0, 100% 100%, 0 84%);
+}
+
+.preto {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  width: calc(100% - 15px);
+  height: calc(100% - 30px);
+  background-color: #000000;
+  clip-path: polygon(0 0, 99% 0, 100% 100%, 0 84%);
+}
+
+.img {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 40px auto 0 auto;
+  display: block;
+  height: 400px;
+  width: 84%;
+  clip-path: polygon(0 0, 99% 0, 100% 100%, 0 84%);
+}
+
+/* Versão espelhada (imagem à direita) */
+.inverso .azul {
+  border-top-left-radius: 0;
+  border-top-right-radius: 10px;
+  clip-path: polygon(0 0, 99% 0, 100% 84%, 0 100%);
+}
+
+.inverso .preto {
+  left: auto;
+  right: 15px;
+  clip-path: polygon(0 0, 99% 0, 100% 84%, 0 100%);
+}
+
+.inverso .img {
+  clip-path: polygon(0 0, 99% 0, 100% 84%, 0 100%);
+}
+
+.qimg {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0, 0, 0, 0)), url('https://th.bing.com/th/id/R.b5e1df3ee9936744f4b656b07d87e99a?rik=kHyDaABThBapYw&pid=ImgRaw&r=0');
+}
+
+.cmimg {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0, 0, 0, 0)), url('https://blog.simca.mx/hs-fs/hubfs/Casas%20inteligentes_03.jpg?width=2280&height=1329&name=Casas%20inteligentes_03.jpg');
+}
+
+.otimg {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0, 0, 0, 0)), url('https://www.androidauthority.com/wp-content/uploads/2022/05/Amazon-Echo-Dot-Alexa-speaker-with-light-ring-turned-on-stock-photo-1.jpg');
+}
+
+/* Lado do texto */
+.texto {
+  flex: 1;
+  text-align: center;
+}
+
+.texto h2 {
+  font-size: 30px;
+  color: black;
+  margin: 0 0 20px;
+}
+
+.texto p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ---------- CONCLUSÃO ---------- */
+.conclusao {
+  margin-bottom: 40px;
+  animation: surgimentoInicial 1s ease-out forwards;
+}
+
+.conclusao h2 {
+  color: black;
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+
+.conc {
+  background-color: #132340;
+  color: white;
+  padding: 30px 40px;
+  margin: 0;
+  line-height: 1.6;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  padding-bottom: 50px;
+}
+
+/* ---------- RODAPÉ ---------- */
+footer {
+  background-color: black;
+  position: relative;
+  height: auto;
+  min-height: 500px;
+  max-width: 1500px;
+  width: 90%;
+  color: white;
+  margin: 80px auto 0;
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+  padding-bottom: 60px;
+}
+
+footer h1 {
+  position: absolute;
+  font-size: 35px;
+  left: 2%;
+  color: white;
+}
+
+.arrow {
+  color: #3793d5cc;
+}
+
+footer ul {
+  text-decoration: none;
+  color: white;
+}
+
+footer h2 {
+  color: white;
+}
+
+.rod-dist {
+  position: absolute;
+  left: 9%;
+  top: 20%;
+}
+
+.list-dist {
+  position: absolute;
+  left: 8%;
+  top: 30%;
+  font-size: 20px;
+}
+
+.rod-dom {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+
+.list-dom {
+  position: absolute;
+  left: 39%;
+  top: 30%;
+  font-size: 20px;
+}
+
+.rod-ind {
+  position: absolute;
+  left: 71%;
+  top: 20%;
+}
+
+.list-ind {
+  position: absolute;
+  left: 70%;
+  top: 30%;
+  font-size: 20px;
+}
+
+#espaco {
+  height: 60px;
+  background-color: whitesmoke;
+}
+
+/* ---------- ANIMAÇÕES ---------- */
+@keyframes surgimentoInicial {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes expandirMenu {
+  from { opacity: 0; transform: translateX(-50%) scale(0.9); }
+  to   { opacity: 1; transform: translateX(-50%) scale(1); }
+}
+
+@media (max-width: 800px) {
+  .bloco,
+  .bloco.inverso {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .visual {
+    flex: none;
+    width: 100%;
+  }
+
+  .indus {
+    margin-left: 20px;
+    padding: 12px 10px;
+    font-size: 14px;
+  }
+}
