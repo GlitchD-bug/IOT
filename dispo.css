@@ -1,0 +1,413 @@
+:root {
+  --texto: #1b1340;
+  --azul: #4dffe4;
+
+}
+
+body {
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: var(--texto);
+  margin: 0;
+  padding: 0;
+  min-height: 1400px; 
+}
+
+.menu {
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  width: 900px;
+  height: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1.5px solid rgba(55, 147, 213, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  padding: 15px 30px;
+  z-index: 10;
+  position: absolute;
+  top: 3%;
+  left: 18%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 40px; 
+  text-decoration: none;
+  animation: expandirMenu 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.indus{
+  background-color: transparent;
+  color: black;
+  font-weight: 600px;
+  font-size: 16px;
+  padding: 18px 28px;
+  border-radius: 999px;
+  border: transparent;
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  cursor: pointer;
+}
+
+.indus{
+  position: absolute;
+  left: 30%;
+}
+
+.indus:hover{
+  color: #3793d5cc;
+  text-decoration: underline;
+}
+
+.logo {
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 1.5%;
+    margin-left: -95%;
+    color: black;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.q{
+  background-color: #132340;
+  position: absolute;
+  height: auto;
+  min-height: 500px;
+  border-top-left-radius: 5px;
+  max-width: 600px;
+  width: 90%;
+  color: white;
+  margin-top: 60px;
+  top: 15%; 
+  left: 6%;
+  right: 6%;
+  clip-path: polygon(0 0, 99% 0, 100% 100%, 0 84%);
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+.q2{
+  background-color: #000000;
+  position: absolute;
+  height: auto;
+  min-height: 500px;
+  max-width: 600px;
+  width: 90%;
+  color: white;
+  margin-top: 60px;
+  top: 20%; 
+  left: 7%;
+  right: 6%;
+  clip-path: polygon(0 0, 99% 0, 100% 100%, 0 84%);
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.qimg {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0, 0, 0, 0)), url('https://s2.glbimg.com/mXHtYZ9vsz2YdWkqvRaDMdIXKq0=/e.glbimg.com/og/ed/f/original/2014/09/02/internet-map.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 40px auto 0 auto; 
+  display: block;
+  height: 400px;
+  width: 84%;
+  clip-path: polygon(0 0, 99% 0, 100% 100%, 0 84%);
+}
+
+.oqh{
+    position: absolute;
+    right: 23%;
+    top: 40%;
+    font-size: 30px;
+    color: black;
+}
+
+p{
+    color: black;
+    text-decoration: none;
+}
+
+.oq{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 7%;
+    font-size: 15px;
+}
+
+.cm{
+  background-color: #132340;
+  position: absolute;
+  height: auto;
+  min-height: 500px;
+  border-top-right-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  color: white;
+  margin-top: 60px;
+  top: 90%; 
+  right: 6%;
+  clip-path: polygon(0 0, 99% 0, 100% 84%, 0 100%);
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+.cm2{
+  background-color: #000000;
+  position: absolute;
+  height: auto;
+  min-height: 500px;
+  max-width: 600px;
+  width: 90%;
+  color: white;
+  margin-top: 60px;
+  top: 95%; 
+  right: 7%;
+  clip-path: polygon(0 0, 99% 0, 100% 84%, 0 100%);
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.cmimg {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0, 0, 0, 0)), url('https://proximonivel.claro.com.br/wp-content/uploads/2022/04/conectividade.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 40px auto 0 auto; 
+  display: block;
+  height: 400px;
+  width: 84%;
+  clip-path: polygon(0 0, 99% 0, 100% 84%, 0 100%);
+}
+
+.funch{
+    position: absolute;
+    left: 14%;
+    top: 110%;
+    font-size: 30px;
+    color: black;
+}
+
+.func {
+  position: absolute;
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
+  color: black; 
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 400px; 
+  margin: 20px auto;
+  top: 120%;
+  left: 10%;
+}
+
+.ot{
+  background-color: #132340;
+  position: absolute;
+  height: auto;
+  min-height: 500px;
+  border-top-left-radius: 5px;
+  max-width: 600px;
+  width: 90%;
+  color: white;
+  margin-top: 60px;
+  top: 170%; 
+  left: 6%;
+  right: 6%;
+  clip-path: polygon(0 0, 99% 0, 100% 100%, 0 84%);
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+.ot2{
+  background-color: #000000;
+  position: absolute;
+  height: auto;
+  min-height: 500px;
+  max-width: 600px;
+  width: 90%;
+  color: white;
+  margin-top: 60px;
+  top: 175%; 
+  left: 7%;
+  right: 6%;
+  clip-path: polygon(0 0, 99% 0, 100% 100%, 0 84%);
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.otimg {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0, 0, 0, 0)), url('https://www.varonis.com/hubfs/Varonis_June2021/Images/shutterstock_789598969-650x434.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 40px auto 0 auto; 
+  display: block;
+  height: 400px;
+  width: 84%;
+  clip-path: polygon(0 0, 99% 0, 100% 100%, 0 84%);
+}
+
+.esenh{
+    position: absolute;
+    right: 18%;
+    top: 190%;
+    font-size: 30px;
+    color: black;
+}
+
+.esen-topico{
+    position: absolute;
+    text-align: center;
+    top: 200%;
+    right: 7%;
+    font-size: 15px;
+}
+
+.concl{
+    position: absolute;
+    color: black;
+    top: 263%;
+    left: 10%;
+}
+
+.conc{
+  background-color: #132340;
+  position: absolute;
+  height: auto;
+  min-height: 200px;
+  max-width: 1200px;
+  width: 90%;
+  color: white;
+  margin-top: 60px;
+  top: 265%; 
+  left: 6%;
+  right: 6%;
+  padding: 20px;
+  clip-path: polygon(0 0, 90% 0, 90% 90%, 0 90%);
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  height: auto;
+  min-height: 500px;
+  max-width: 1500px;
+  width: 90%;
+  color: white;
+  margin-top: 60px;
+  top: 295%; 
+  left: 6%;
+  right: 6%;
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+footer h1{
+  position: absolute;
+  font-size: 35px;
+  left: 2%;
+  color: white;
+}
+
+.arrow{
+  color: #3793d5cc;
+}
+
+footer ul{
+  text-decoration: none;
+  color: white;
+}
+
+footer h2{
+  color: white;
+}
+
+.rod-dist{
+  position: absolute;
+  left: 9%;
+  top: 20%;
+}
+
+.list-dist{
+  position: absolute;
+  left: 8%;
+  top: 30%;
+  font-size: 20px;
+}
+
+.rod-dom{
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+
+.list-dom{
+  position: absolute;
+  left: 39%;
+  top: 30%;
+  font-size: 20px;
+}
+
+.rod-ind{
+  position: absolute;
+  left: 71%;
+  top: 20%;
+}
+
+.list-ind{
+  position: absolute;
+  left: 70%;
+  top: 30%;
+  font-size: 20px;
+}
+
+#espaco{
+  height: 10px;
+  margin-top: 70px;
+  top: 350%;
+  background-color: whitesmoke;
+}
+
+.q, .q2, .cm, .cm2, .ot, .ot2, .conc, .oqh, .oq, .funch, .func, .esenh, .esen-topico, .concl {
+  animation: surgimentoInicial 1s ease-out forwards;
+}
+
+@keyframes surgimentoInicial {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes expandirMenu {
+  from {
+    opacity: 0;
+    transform: scaleX(0.4);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
