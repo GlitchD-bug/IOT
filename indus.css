@@ -31,7 +31,7 @@ body {
   z-index: 10;
   position: absolute;
   top: 3%;
-  left: 18%;
+  left: 23%;
   align-items: center;
   justify-content: flex-start;
   padding: 0 40px; 
@@ -90,14 +90,14 @@ a{
     font-family: "Bricolage Grotesque", Arial, sans-serif;
     font-size: 60px;
     position: absolute;
-    left:30%;
+    left:32%;
     top: 13%;
 }
 
 .desc {
     font-family: "Bricolage Grotesque", Arial, sans-serif;
     position: absolute;
-    top: 27%;
+    top: 25%;
     left: 40%;
     text-align: center;
 
@@ -112,7 +112,7 @@ a{
   left: 20px;
   right: 20px;
   margin-left: 9%;
-  top: 45%;
+  top: 42%;
   margin-bottom: 300px;
   border-radius: 10px;
   border: 1.5px solid rgba(55, 147, 213, 0.8);
@@ -272,8 +272,8 @@ footer {
   width: 90%;
   color: white;
   margin-top: 60px;
-  top: 110%; 
-  left: 6%;
+  top: 87%; 
+  left: 11%;
   right: 6%;
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
   padding-bottom: 60px;
