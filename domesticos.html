@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="domestico.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
-
+     
         <nav class="menu">
-        <h1 class="logo">IoT.</h1>
-            <button class="domestico"><strong>Sistemas Domésticos</strong></button>
-            <button class="indus"><strong>Sistemas Indústrias</strong></button>
-            <button class="distan"><strong>Sistemas a Distância</strong></button>
+        <a href="Pág incial.html"><h1 class="logo">IoT.</h1></a>
+            <a href="indus.html"><button class="domestico">Sistemas Industriais</button></a>
+            <a href="dist.html"><button class="distan">Tecnologias a Distância</button></a>
     </nav>
 
     <h1 class="title">
@@ -23,12 +22,61 @@
     </h1>
 
     <span class="desc">
-        Sistemas Domésticos usados em casas <br> normalmente em eletrodomésticos como robôs aspiradores <br> Smart Tv's e etc 
+        <p>Sistemas domésticos são as redes de energia,<br> água, gás e comunicação que fazem uma casa funcionar.</p>
     </span>
-
-    <div class="casa">
-        <p>Casas Inteligentes</p>
-    </div>
-
+    <main class="setores">
+        <saction class="indus4">
+            <div class="card-topico">
+                <a href="indus4.html"><h2>Casas Inteligentes</h2></a>
+            <div class="card-txt">
+                <p>São residências integradas à internet que automatizam tarefas diárias por comandos de voz ou aplicativos. Elas gerenciam sistemas como iluminação, eletrodomésticos e segurança em tempo real. Essa tecnologia se adapta à rotina dos moradores para garantir conforto e economia.</p>
+            </div>
+            </div>
+        </saction>
+        <saction class="sensores">
+            <div class="card-topico2">
+                <a href="sensores.html"><h2>Cidades Inteligentes</h2></a>
+            <div class="card-txt2">
+                <p>São centros urbanos que usam redes de sensores e dados para melhorar a gestão pública e a infraestrutura. Elas monitoram o trânsito, otimizam a iluminação das ruas e controlam o desperdício de água e energia. O grande objetivo é criar ambientes mais sustentáveis, eficientes e seguros para os cidadãos.</p>
+            </div>
+            </div>
+        </saction>
+        <saction class="arduino">
+            <div class="card-topico3">
+                <a href="micron.html"><h2>Microcontrolador</h2></a>
+            <div class="card-txt3">
+                <p>São pequenos chips programáveis que funcionam como o cérebro físico dos dispositivos conectados. Eles recebem informações de sensores ambientais, como temperatura ou presença, e processam esses dados instantaneamente. A partir disso, executam tarefas práticas como acender luzes, fechar portas ou ligar motores.</p>
+            </div>
+            </div>
+        </saction>
+    </main>
+    <footer>
+        <a href="Pág incial.html"><h1>IoT.</h1></a>
+        <a href="indus.html"><h2 class="rod-ind">Sistemas Industriais<span class="arrow"> → </span></h2></a>
+        <ul class="list-ind">
+            <a href="indus4.html"><li>Industria 4.0</li></a>
+            <br>
+            <a href="sensores.html"><li>Sensores</li></a>
+            <br>
+            <a href="arduino.html"><li>Arduino</li></a>
+        </ul>
+          <a href="indus.html"><h2 class="rod-dist">Tecnologias a Distância<span class="arrow"> → </span></h2></a>
+        <ul class="list-dist">
+            <a href="dispconec.html"><li>Dispositivos Conectados</li></a>
+            <br>
+            <a href="comu.html"><li>Comunicação</li></a>
+            <br>
+            <a href="seg.html"><li>Segurança em IoT</li></a>
+        </ul>
+             <a href="indus.html"><h2 class="rod-dom">Sistemas Domesticos<span class="arrow"> → </span></h2></a>
+        <ul class="list-dom">
+            <a href="indus4.html"><li>Casas Inteligentes</li></a>
+            <br>
+            <a href="sensores.html"><li>Cidades inteligentes</li></a>
+            <br>
+            <a href="arduino.html"><li>Microcontrolador</li></a>
+        </ul>
+    </footer>
+    <div id="espaco"></div>
 </body>
 </html>
